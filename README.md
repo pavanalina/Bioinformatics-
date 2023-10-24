@@ -17,19 +17,18 @@ The Needleman-Wunsch algorithm is a widely used method for comparing and alignin
 
 ## Scoring Schema
 The script uses a simple scoring schema for sequence alignment:
-Match: +1
-Mismatch: -1
-Gap: -2
+- Match: +1
+- Mismatch: -1
+- Gap: -2
 You can adjust these values within the code to suit your specific alignment needs.
 
 ## Example
 Suppose you have the following input sequences:
-
-Sequence 1: "ATCGT"
-Sequence 2: "TGGTG"
+- Sequence 1: "ATCGT"
+- Sequence 2: "TGGTG"
 After running the script with these sequences and the default scoring schema, you will get the following alignment:
-ATCGT-
--TGGTG
+- "ATCGT-"
+- "-TGGTG"
 
 ## Author
 PAVAN KUMAR S P
