@@ -1,5 +1,5 @@
 # Bioinformatics-
-# Needleman-Wunsch Sequence Alignment
+# Needleman-Wunsch Sequence Alignment 
 
 This Python script implements the Needleman-Wunsch algorithm for sequence alignment. The Needleman-Wunsch algorithm is a dynamic programming method used to find the optimal alignment between two sequences, considering matches, mismatches, and gaps. This README provides an overview of the code, its usage, the scoring schema, and an example of how to run it.
 
